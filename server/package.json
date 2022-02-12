@@ -1,0 +1,25 @@
+{
+    "name": "eplearning",
+    "version": "1.0.0",
+    "description": "Platforma de eLearning",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "client-sessions": "^0.8.0",
+        "cors": "^2.8.5",
+        "dotenv": "^14.3.2",
+        "express": "^4.17.1",
+        "nodemon": "^1.19.1",
+        "path": "^0.12.7",
+        "pg": "^8.7.1",
+        "sequelize": "^5.21.2",
+        "sqlite3": "^5.0.2",
+        "xmlhttprequest": "^1.8.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
